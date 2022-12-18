@@ -8,7 +8,7 @@ import emoji from 'assets/images/icons/emoji-2.png';
 
 const data = [
   {
-    title: 'Organize o conteúdo do seu projeto',
+    title: ' ExtraCoop powers',
     contents: (
       <div>
         Obtenha seus exames de sangue entregues em vamos coletar uma amostra da vitória de
@@ -17,16 +17,19 @@ const data = [
     ),
   },
   {
-    title: 'Colabore seus documentos facilmente',
+    title: 'Extracredit- save and access upto X3 of your saving instantly',
     contents: (
       <div>
-        Obtenha seus exames de sangue entregues em vamos coletar uma amostra da vitória de
-        os gerentes que fornecem as melhores diretrizes de sistema de design de todos os tempos.
+        Credit-on-the-go and pay-as-you-stock bit-by-bit for micro-enterprises within the informal market (mom & pop stores, 
+        retail shops, input and commodities suppliers, POS centers etc).
+        <br></br>
+        If you own a small business, we don’t want you to close down your business again to go and queue at banks for loans or 
+        run out-of-cash to restock- access our;
       </div>
     ),
   },
   {
-    title: `Construa a base de conhecimento de sua equipe`,
+    title: `Extrawealth- partner and collaborate with Extramile Africa to co-share Wealth`,
     contents: (
       <div>
         Obtenha seus exames de sangue entregues em vamos coletar uma amostra da vitória de
@@ -48,8 +51,10 @@ const PremiumFeature = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="Conheça nossos recursos premium que o farão impressionar"
-              description="Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis."
+              title="Extramile Africa everyday products and services"
+              description="Extramile Africa is your #1 alternative ecosystem to instant credit scores, 
+              credit-on-the-go, pay-as-you-stock and you pay back bit-by-bit through your Extrawallet or
+               Credit managers to our Bank Partners "
             />
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />

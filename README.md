@@ -84,7 +84,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Step 2
 
-- 👯 Clone this repo to your local machine using `https://github.com/solrachix/landing-page-template_4`
+- 👯 Clone this repo to your local machine using `https://github.com/tomcyrus/ExtramileUI`
 
 ### Step 3
 

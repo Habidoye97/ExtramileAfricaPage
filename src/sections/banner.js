@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Flex, Container, Heading, Text } from 'theme-ui';
+import { jsx, Box, Flex, Container, Heading, Text, Button, Label } from 'theme-ui';
 import { rgba } from 'polished';
 import Image from 'components/image';
 import SubscriptionForm from 'components/subscription-form';
@@ -7,7 +7,7 @@ import illustration from 'assets/images/banner.png';
 import eflna from 'assets/images/ban1.png';
 import tef from 'assets/images/ban2.png';
 import zenith from 'assets/images/ban3.png';
-import {  Button, Label } from 'theme-ui';
+
 
 const logos = [
   {

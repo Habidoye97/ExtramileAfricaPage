@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Flex, Button } from 'theme-ui';
+import { jsx, Box, Container, Flex, Button,Link } from 'theme-ui';
 import Sticky from 'react-stickynode';
 import { useState } from 'react';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
@@ -8,8 +8,10 @@ import Image from 'components/image';
 import Logo from 'components/logo';
 import { NavLink } from 'components/link';
 
+
 import menuItems from './header.data';
 import lock from 'assets/images/icons/lock.png';
+import logo from 'assets/images/logo.jpg';
 
 export default function Header() {
   const [state, setState] = useState({
@@ -35,6 +37,7 @@ export default function Header() {
             <Container>
               <Box sx={styles.headerInner}>
                 <Logo sx={styles.logo} isSticky={state.isSticky} />
+                {/* <Image src={logo} alt="extramile" isSticky={state.isSticky} /> */}
                 <Flex
                   as="nav"
                   sx={styles.navbar}
@@ -57,12 +60,13 @@ export default function Header() {
                   </Box>
                 </Flex>
                 <Flex sx={styles.buttonGroup}>
-                  <button sx={styles.login}>
-                    <Image src={lock} alt="lock icon" />
-                    Login
-                  </button>
-                  <Button variant="text" sx={styles.getStarted}>
-                    Iniciar
+                  <Button variant="text" sx={styles.login} href="#">
+                {/* <Link href=""> */}
+                    Get Started
+                  {/* </Link> */}
+                  </Button>
+                  <Button variant="text" sx={styles.getStarted} path="#">
+                    Contact Us
                   </Button>
                 </Flex>
                 <NavbarDrawer />

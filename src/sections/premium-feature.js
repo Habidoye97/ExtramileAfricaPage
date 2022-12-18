@@ -1,18 +1,25 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Grid } from 'theme-ui';
+import { jsx, Box, Container, Grid,Button,Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
 import messenger from 'assets/images/messenger.png';
-import emoji from 'assets/images/icons/emoji-2.png';
+import { LearnMore } from 'components/link';
+import emoji from 'assets/images/icons/emoji.png';
+
+
 
 const data = [
   {
     title: ' ExtraCoop powers',
     contents: (
       <div>
-        Obtenha seus exames de sangue entregues em vamos coletar uma amostra da vitória de
-        os gerentes que fornecem as melhores diretrizes de sistema de design de todos os tempos.
+        Credit-on-the-go to access instant solar-power to power your shops, schools, offices, farms, and homes.
+        <br></br>
+        Get Instant access on credit and pay back bit-by-bit without sweating.
+        <br></br>
+
+        <LearnMore label="Learn more" path="#!" />
       </div>
     ),
   },
@@ -25,6 +32,9 @@ const data = [
         <br></br>
         If you own a small business, we don’t want you to close down your business again to go and queue at banks for loans or 
         run out-of-cash to restock- access our;
+        Credit-on-the-go | Pay-as-you-stock | Pay back bit-by-bit.
+        <br></br>
+        <LearnMore label="Learn more" path="#!" />
       </div>
     ),
   },
@@ -34,6 +44,7 @@ const data = [
       <div>
         Obtenha seus exames de sangue entregues em vamos coletar uma amostra da vitória de
         os gerentes que fornecem as melhores diretrizes de sistema de design de todos os tempos.
+        <LearnMore label="Learn more" path="#!" />
       </div>
     ),
   },
@@ -52,16 +63,27 @@ const PremiumFeature = () => {
               emoji={emoji}
               sx={styles.heading}
               title="Extramile Africa everyday products and services"
-              description="Extramile Africa is your #1 alternative ecosystem to instant credit scores, 
-              credit-on-the-go, pay-as-you-stock and you pay back bit-by-bit through your Extrawallet or
-               Credit managers to our Bank Partners "
+              description="Extramile Africa has pivoted into a new faze in our advocacy; building Africa #1 alternative credit infrastructure and credit scores 
+              for the underserved and lastmiles left in the cold for years. "
             />
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />
             </Box>
+            <br></br> 
+            <center>
+            <Button href="#">Join ExtraCoop today</Button>
+            </center>
           </Box>
+          <SectionHeading
+          sx={styles.heading}
+          title="Joining ExtraCoop Today"
+          description="Joining ExtraCoop will also gives you the ample opportunity to partner and collaborate with us 
+          and earn 5% ROI on your money every 3months for 2years."
+        />
         </Grid>
+       
       </Container>
+      
     </section>
   );
 };

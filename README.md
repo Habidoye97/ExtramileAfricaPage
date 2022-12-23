@@ -1,21 +1,18 @@
 <p align="center">Ultimate support system for leading agencies</p>
 
 <p align="center">
-  <a href="https://github.com/tomcyrus">
-    <img alt="Made by Tomcyrus" src="https://img.shields.io/badge/-Github-5659EB?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/tomcyrus" />
+  <a href="https://github.com/Habidoye97">
+    <img alt="Made by Abidoye Abiodun" src="https://img.shields.io/badge/-Github-5659EB?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/Habidoye97" />
   </a>
  
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tomcyrus/ExtramileUI?style=for-the-badge&label=Repo%20Size:&labelColor=5965e0&color=5965e0">
-	<br />
-  <a href="https://github.com/tomcyrus/ExtramileUI/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tomcyrus/ExtramileUI?style=for-the-badge&label=last%20commit:&labelColor=5965e0&color=5965e0">
-  </a>
+  
+  
   <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
   <br />
  
 </p>
 <p align="center">
-    <img alt="Landing page Logo" src="https://github.com/tomcyrus/ExtramileUI/blob/master/public/cover.png" />
+    <img alt="Landing page Logo" src="#" />
 </p>
 
 ---
@@ -35,7 +32,7 @@
 - Clone this repo to your local machine using:
 
 ```
-https://github.com/tomcyrus/ExtramileUI
+https://github.com/Habidoye97/ExtramileAfricaPage
 ```
 
 ### Setup
@@ -84,7 +81,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Step 2
 
-- 👯 Clone this repo to your local machine using `https://github.com/tomcyrus/ExtramileUI`
+- 👯 Clone this repo to your local machine using `https://github.com/Habidoye97/ExtramileAfricaPage`
 
 ### Step 3
 
@@ -118,4 +115,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made by Carlos Miguel with 💙 Enjoy it!# ExtramileUI
+Made by Abiodun Abidoye with 💙 Enjoy it!# ExtramileAfricaLandingPage

@@ -5,26 +5,26 @@ import { Link } from 'components/link';
 import Logo from 'components/logo';
 
 const menuItems = [
-  {
-    path: '#home',
-    label: 'Home',
-  },
-  {
-    path: '#advertise',
-    label: 'Anunciar',
-  },
-  {
-    path: '#supports',
-    label: 'Suporte',
-  },
-  {
-    path: '#marketing',
-    label: 'Marketing',
-  },
-  {
-    path: '#faq',
-    label: 'FAQ',
-  },
+  // {
+  //   path: '#home',
+  //   label: 'Home',
+  // },
+  // {
+  //   path: '#advertise',
+  //   label: 'Anunciar',
+  // },
+  // {
+  //   path: '#supports',
+  //   label: 'Suporte',
+  // },
+  // {
+  //   path: '#marketing',
+  //   label: 'Academy',
+  // },
+  // {
+  //   path: '#faq',
+  //   label: 'FAQ',
+  // },
 ];
 
 export default function Footer() {
@@ -35,7 +35,7 @@ export default function Footer() {
           <Flex sx={styles.copyright}>
             <Logo isWhite />
             <Text as="span">
-              &copy; Copyright by {new Date().getFullYear()} RedQ, Inc
+              &copy; Copyright by {new Date().getFullYear()} ExtramileAfrica
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>

@@ -13,6 +13,7 @@ import Dashboard from 'sections/dashboard';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
+import Academy from 'sections/Academy';
 
 export default function IndexPage() {
   return (
@@ -27,6 +28,7 @@ export default function IndexPage() {
         <PremiumFeature />
         <AppFeature />
         <Dashboard />
+        <Academy />
         <Pricing />
         <Testimonials />
         <Subscribe />

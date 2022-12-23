@@ -5,7 +5,7 @@ import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
 import messenger from 'assets/images/academy.png';
 import { Link } from 'components/link';
-import emoji from 'assets/images/icons/emoji.png';
+
 
 
 
@@ -36,11 +36,11 @@ const Academy = () => {
           </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
-            //   emoji={emoji}
+            
               sx={styles.heading}
               title="Extramile Academy"
               description="Extramile Africa has pivoted into a new faze in our advocacy; building Africa #1 alternative credit infrastructure and credit scores 
-              for the underserved and lastmiles left in the cold for years. "
+              for the underserved and last miles left in the cold for years. "
             />
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />

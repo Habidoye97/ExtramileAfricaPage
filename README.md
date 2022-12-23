@@ -6,7 +6,6 @@
   </a>
  
   
-  
   <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
   <br />
  
